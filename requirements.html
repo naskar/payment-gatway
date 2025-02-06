@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Payment Gateway</title>
+    <style>
+        body {
+            font-family: 'SamsungOne', sans-serif;
+            background-color: #f4f7fc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            text-align: center;
+        }
+        h2 {
+            color: #1428A0;
+        }
+        .payment-options {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .btn {
+            padding: 12px;
+            border-radius: 12px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.3s ease;
+        }
+        .samsung-pay {
+            background: #1428A0;
+            color: white;
+        }
+        .samsung-pay:hover {
+            background: #0d1f7f;
+        }
+        .card-payment {
+            background: #e3e6f0;
+            color: #1428A0;
+        }
+        .card-payment:hover {
+            background: #cbd2e0;
+        }
+        .upi {
+            background: #00a36c;
+            color: white;
+        }
+        .upi:hover {
+            background: #008f5a;
+        }
+        .secure {
+            font-size: 12px;
+            color: #7a7a7a;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Samsung Payment Gateway</h2>
+    <p>Secure & Fast Payments</p>
+    
+    <div class="payment-options">
+        <button class="btn samsung-pay">Pay with Samsung Pay</button>
+        <button class="btn card-payment">Pay with Debit/Credit Card</button>
+        <button class="btn upi">Pay with UPI</button>
+    </div>
+    
+    <p class="secure">SSL Secure Payment | 256-bit Encryption</p>
+</div>
+
+</body>
+</html>
